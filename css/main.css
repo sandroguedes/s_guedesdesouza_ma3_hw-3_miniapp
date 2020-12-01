@@ -1,0 +1,382 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.fas {
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  margin-top: 30px;
+  font-size: 3em;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 750px;
+  overflow: hidden;
+}
+
+.hero .title_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.hero .title_container .main_title {
+  color: white;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 6em;
+  width: 80vw;
+  margin-bottom: -20px;
+}
+
+.hero .bgvid {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+.body_title_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 250px;
+  background-color: white;
+}
+
+.body_title_container .body_title {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 3em;
+}
+
+.body_title_container p {
+  font-family: sans-serif;
+  font-size: 2.3em;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.appcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  height: 750px;
+}
+
+.appcontainer #topNav #navList li {
+  display: inline;
+  list-style-type: none;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.appcontainer #topNav .iconContainer {
+  height: 230px;
+  width: 500px;
+  display: inline-block;
+  overflow: hidden;
+  background-image: url(../images/carsprites.png);
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+}
+
+.appcontainer #topNav .iconContainer .sigilContainer:active {
+  background-color: rgba(0, 180, 230, 0.3);
+  -webkit-box-shadow: 0px 0px 50px 25px rgba(0, 180, 230, 0.4);
+          box-shadow: 0px 0px 50px 25px rgba(0, 180, 230, 0.4);
+}
+
+.appcontainer #topNav .sprite01 {
+  background-position: 0px -230px;
+}
+
+.appcontainer #topNav .sprite01:hover {
+  background-position: 0px 0px;
+}
+
+.appcontainer #topNav .sprite02 {
+  background-position: -500px -230px;
+}
+
+.appcontainer #topNav .sprite02:hover {
+  background-position: -500px 0px;
+}
+
+.appcontainer #topNav .sprite03 {
+  background-position: -1000px -230px;
+}
+
+.appcontainer #topNav .sprite03:hover {
+  background-position: -1000px 0px;
+}
+
+.appcontainer .appinfocontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appcontainer .appinfocontainer #imageContainer {
+  width: 600px;
+  height: 360px;
+  overflow: hidden;
+}
+
+.appcontainer .appinfocontainer #imageContainer #carImages {
+  position: relative;
+  width: 7000px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.appcontainer .appinfocontainer #imageContainer #carImages img {
+  float: left;
+}
+
+.appcontainer .appinfocontainer .descriptionContainer {
+  height: 360px;
+  width: 860px;
+}
+
+.appcontainer .appinfocontainer .descriptionContainer .carName {
+  margin-left: 30px;
+  text-align: left;
+  color: white;
+}
+
+.appcontainer .appinfocontainer .descriptionContainer .carInfo {
+  margin: 30px 0 0 30px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.25em;
+  line-height: 25px;
+  text-align: left;
+  color: white;
+}
+
+.mainTopNavContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 65px;
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(100, 100, 100, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.mainTopNavContainer .mainTopNav_HContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.mainTopNavContainer .mainTopNav_HContainer .mainTopNav_Logo {
+  margin-top: 5px;
+  height: 60px;
+  width: 115px;
+}
+
+.mainTopNavContainer .mainTopNav_HContainer .mainTopNav_Nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+}
+
+.mainTopNavContainer .mainTopNav_HContainer .mainTopNav_Nav .mainTopNav_NavItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 30px;
+}
+
+.mainTopNavContainer .mainTopNav_HContainer .mainTopNav_Nav .mainTopNav_NavItem a {
+  text-decoration: none;
+  color: #828282;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.mainTopNavContainer .mainTopNav_HContainer .mainTopNav_Nav .mainTopNav_NavItem :hover {
+  color: black;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  background: #141414;
+}
+
+.footer p {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

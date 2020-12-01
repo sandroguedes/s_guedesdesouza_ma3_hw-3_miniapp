@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="css/meyerReset.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+    <main>
+        <section class="mainTopNavContainer">
+            <div class="mainTopNav_HContainer">
+                <div class="mainTopNav_Logo">
+                    <img src="./images/minilogo.svg" alt="Mini Logo">
+                </div>
+                <div class="mainTopNav_Nav">
+                    <div class="mainTopNav_NavItem">
+                        <a href="https://mini.ca/en/shopping/buildandprice#/">BUILD & PRICE</a>
+                    </div>
+                    <div class="mainTopNav_NavItem">
+                        <a href="https://mini.ca/en/find-retailer">FIND A RETAILER</a>
+                    </div>
+                    <div class="mainTopNav_NavItem">
+                        <a href="https://mini.ca/en/shopping/inventory">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero">
+            <h1 class="hidden">Hero Video and Title Text</h1>
+            <video playsinline autoplay muted loop class="bgvid">
+                <source src="./videos/hero.mp4" type="video/mp4">
+            </video>
+            <div class="title_container"><h1 class="main_title">CHOOSE YOUR Mini</h1></div>
+        </section>
+
+        <section class="body_title_container">
+            <h1 class="hidden">Main Section Title</h1>
+            <h1 class="body_title">There is a right Mini for everyone,</h1>
+            <p>scroll through and take your pick!</p>
+        </section>
+
+        <section = class="appcontainer">
+            <nav id="topNav">
+                <ul id="navList">
+                    <li> <div class="iconContainer sprite01" data-offset="0"></div> </li>
+                    <li> <div class="iconContainer sprite02" data-offset="1"></div> </li>
+                    <li> <div class="iconContainer sprite03" data-offset="2"></div> </li>
+                </ul>
+                <ul id="navList">
+                </ul>
+            </nav>
+            <div class="appinfocontainer">
+                <div id="imageContainer">
+                    <div id="carImages" style="right:0;">
+                        <img src="images/car01.jpg"/>
+                        <img src="images/car02.jpg"/>
+                        <img src="images/car03.jpg"/>
+                    </div>
+                </div>
+    
+                <div class="descriptionContainer">
+                    <h1 class="carName">MINI 3 Doors</h1>
+                    <p class="carInfo">
+                        It’s the original icon, reborn and reimagined for modern motoring. The MINI 3 door builds on 60+ years of timeless MINI design, but comes equipped with a whole host of 21st century tech features and practical touches to cater to your every need. Distinct by design and urban by nature, it’s made to stand out as you explore new corners of your city. And with its ultra-nimble go-kart feel, you’re sure to find something exciting around every turn.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <p>Copyright © 2020</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

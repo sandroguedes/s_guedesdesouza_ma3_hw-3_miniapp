@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    background: rgba(20, 20, 20, 1.0);
+    p {
+        font-family: sans-serif;
+        font-size: 1em;
+        color: white;
+    }
+}

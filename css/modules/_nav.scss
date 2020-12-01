@@ -1,0 +1,46 @@
+.mainTopNavContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(100, 100, 100, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    .mainTopNav_HContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        .mainTopNav_Logo {
+            margin-top: 5px;
+            height: 60px;
+            width: 115px;
+            }
+        .mainTopNav_Nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            height: 100%;
+            .mainTopNav_NavItem {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 30px;
+                a {
+                    text-decoration: none;
+                    color: rgba(130, 130, 130, 1);
+                    font-family: sans-serif;
+                    font-size: 1.2em;
+                    transition: 0.2s;
+                }
+                :hover {
+                    color: rgba(0, 0, 0, 1);
+                }
+            }
+        }
+    }
+}
