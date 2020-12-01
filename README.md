@@ -7,6 +7,7 @@ Clone/Download the repo and set up a local host environment with the software of
 
 ## Roadmap
 • Front-end: Complete
+
 • Back-end: In progress
 
 ## Developed With
