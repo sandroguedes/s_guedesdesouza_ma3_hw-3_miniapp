@@ -2,18 +2,22 @@
 # Mini App
 In this app, the user can check out a selection of Mini cars.
 
+
 ## Installation
 Clone/Download the repo and set up a local host environment with the software of your choise. That last step is necessary because the app pulls data from a database via PHP and Ajax requests.
+
 
 ## Roadmap
 • Front-end: Complete
 
 • Back-end: In progress
 
+
 ## Developed With
 * HTML
 * SCSS
 * JS
+
 
 ## License
 ### MIT License
